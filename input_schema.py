@@ -7,7 +7,7 @@ INPUT_SCHEMA = {
     },
     "temperature": {
         'datatype': 'FP32',
-        'required': False,
+        'required': True,
         'shape': [1],
         'example': [0.7]
     },
