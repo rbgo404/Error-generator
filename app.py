@@ -1,4 +1,4 @@
-from time import perf_count
+from time import perf_counter
 
 class InferlessPythonModel:
     def initialize(self):
@@ -8,7 +8,7 @@ class InferlessPythonModel:
         prompts = inputs["prompt"]
         prompts = inputs["temperature"]
         
-        return {'generated_text': "primary"}
+        return 'generated_text'
 
     def finalize(self):
         llm = None
