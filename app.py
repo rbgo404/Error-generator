@@ -6,7 +6,7 @@ class InferlessPythonModel:
 
     def infer(self, inputs):
         prompts = inputs["prompt"]
-        prompts = inputs["tops"]
+        prompts = inputs["temperature"]
         
         return {'generated_text': "primary"}
 
